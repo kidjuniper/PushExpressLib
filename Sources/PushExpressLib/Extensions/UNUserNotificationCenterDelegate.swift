@@ -1,6 +1,6 @@
 //
-//  File.swift
-//  
+//  UNUserNotificationCenterDelegate.swift
+//
 //
 //  Created by Nikita Stepanov on 15.06.2024.
 //

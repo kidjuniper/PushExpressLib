@@ -17,3 +17,4 @@ public enum Events: String {
     case clicked
     case delivered
 }
+
