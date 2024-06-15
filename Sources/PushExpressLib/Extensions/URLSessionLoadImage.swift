@@ -1,5 +1,5 @@
 //
-//  File.swift
+//  URLSessionLoadImage.swift
 //  
 //
 //  Created by Nikita Stepanov on 15.06.2024.
@@ -17,7 +17,7 @@ extension URLSession {
             }
             
             guard let data = data else {
-                let noDataError = NSError(domain: "com.yourApp.error", code: 1001, userInfo: [NSLocalizedDescriptionKey: "No data received"])
+                let noDataError = NSError(domain: "com.PushExpress.error", code: 1001, userInfo: [NSLocalizedDescriptionKey: "No data received"])
                 completionHandler(nil, noDataError)
                 return
             }
