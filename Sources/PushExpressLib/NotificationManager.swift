@@ -26,6 +26,8 @@ public class NotificationManager {
         
         content.title = title
         content.body = body
+        
+        PushExpressManager.shared.sendNotificationEvent(msgId: msgId, event: .delivered)
 
         if let imageUrlString = userInfo["px.image"] as? String,
            let imageUrl = URL(string: imageUrlString) {
