@@ -1,8 +1,3 @@
-
-# Project Title
-
-A brief description of what this project does and who it's for
-
 # PushExpressLib
 
 **PushExpressLib** is a library designed to simplify the integration and handling of push notifications in iOS applications using the PushExpress service and Firebase Cloud Messaging (FCM).
