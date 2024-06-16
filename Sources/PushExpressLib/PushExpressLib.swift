@@ -17,7 +17,7 @@ public final class PushExpressManager: NSObject {
 
     public func initialize(appId: String,
                     transportType: TransportType,
-                    testing: Bool,
+                           foreground: Bool,
                     extId: String?) {
         self.appId = appId
 
@@ -31,7 +31,7 @@ public final class PushExpressManager: NSObject {
                                    extId: extId)
         }
         
-        if testing {
+        if foreground {
             UNUserNotificationCenter.current().delegate = PushExpressManager.shared
             
             UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound, .badge]) { granted, error in

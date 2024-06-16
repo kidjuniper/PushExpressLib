@@ -31,6 +31,7 @@
 			children = (
 				A4776C412C12255400A12A1D /* PushExpressLib */,
 				A4776C402C12255400A12A1D /* Products */,
+				A47ED9522C1EE7FD00DAF82F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -48,6 +49,13 @@
 				A4776C432C12255400A12A1D /* PushExpressLib.docc */,
 			);
 			path = PushExpressLib;
+			sourceTree = "<group>";
+		};
+		A47ED9522C1EE7FD00DAF82F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -88,6 +96,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
 					A4776C3E2C12255400A12A1D = {
